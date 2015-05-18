@@ -55,6 +55,7 @@ if(WIN32)
     get_filename_component(OPENCV_DIR_HINT ${OPENCV_DIR_PLATFORM} DIRECTORY)
 endif(WIN32)
 
+set(OpenCV_STATIC OFF)
 find_package(OpenCV REQUIRED HINTS ${OPENCV_DIR_HINT})
 
 # add 3rdparty source
