@@ -296,9 +296,6 @@ namespace cf_tracking
 
             copyMakeBorder(subWindow, subWindow, diffTopY, -diffBottomY,
                 diffTopX, -diffBottomX, cv::BORDER_REPLICATE);
-
-            posInSubWindowX += diffTopX;
-            posInSubWindowY += diffTopY;
         }
 
         // this if can be true if the sub window
